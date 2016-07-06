@@ -1,0 +1,55 @@
+// Border Utility
+// =====
+
+
+// All(Four side border) border
+// =====
+.u-border-all {
+    border: $border;
+}
+
+// Border None
+.u-border-none {
+    border: 0;
+}
+
+// Border Top
+// =====
+.u-border-top {
+    border-top: $border;
+}
+
+.u-border-top-zero {
+    border-top: 0;
+}
+
+// Border right
+// ====
+.u-border-right {
+    border-right: $border;
+}
+
+.u-border-right-zero {
+    border-right: 0;
+}
+
+// Border left
+// ====
+.u-border-left {
+    border-left: $border;
+}
+
+.u-border-left-zero {
+    border-left: 0;
+}
+
+
+// Border Bottom
+// ====
+.u-border-bottom {
+    border-bottom: $border;
+}
+
+.u-border-bottom-zero {
+    border-bottom: 0;
+}

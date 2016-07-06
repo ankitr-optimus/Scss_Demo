@@ -1,0 +1,173 @@
+// Padding Utilities
+// ===
+//
+// Suffixes:
+// lg: large
+// md: medium
+// sm: small
+// tn: tiny
+// zero:  none
+
+
+// All(Four side padding) padding
+// =====
+.u-padding-all-lg {
+    padding: $unit*2;
+}
+
+.u-padding-all-md {
+    padding: $unit;
+}
+
+.u-padding-all-sm {
+    padding: $sub-unit;
+}
+
+.u-padding-all-tn {
+    padding: $sub-unit / 2;
+}
+
+.u-padding-all-zero {
+    padding: 0;
+}
+
+// padding Left & Right(L & R)
+// ======
+.u-padding-top-bottom-lg {
+    padding-top: $unit*2;
+    padding-bottom: $unit*2;
+}
+
+.u-padding-top-bottom-md {
+    padding-top: $unit;
+    padding-bottom: $unit;
+}
+
+.u-padding-top-bottom-sm {
+    padding-top: $sub-unit;
+    padding-bottom: $sub-unit;
+}
+
+.u-padding-top-bottom-tn {
+    padding-top: $sub-unit/2;
+    padding-bottom: $sub-unit/2;
+}
+
+.u-padding-top-bottom-zero {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+// padding Left & Right(L & R)
+// ======
+.u-padding-left-right-lg {
+    padding-right: $unit*2;
+    padding-left: $unit*2;
+}
+
+.u-padding-left-right-md {
+    padding-right: $unit;
+    padding-left: $unit;
+}
+
+.u-padding-left-right-sm {
+    padding-right: $sub-unit;
+    padding-left: $sub-unit;
+}
+
+.u-padding-left-right-tn {
+    padding-right: $sub-unit/2;
+    padding-left: $sub-unit/2;
+}
+
+.u-padding-left-right-zero {
+    padding-right: 0;
+    padding-left: 0;
+}
+// padding Top
+// ======
+.u-padding-top-lg {
+    padding-top: $unit*2;
+}
+
+.u-padding-top-md {
+    padding-top: $unit;
+}
+
+.u-padding-top-sm {
+    padding-top: $sub-unit;
+}
+
+.u-padding-top-tn {
+    padding-top: $sub-unit/2;
+}
+
+.u-padding-top-0 {
+    padding-top: 0;
+}
+
+// padding bottom
+// ======
+.u-padding-bottom-lg {
+    padding-bottom: $unit*2;
+}
+
+.u-padding-bottom-md {
+    padding-bottom: $unit;
+}
+
+.u-padding-bottom-sm {
+    padding-bottom: $sub-unit;
+}
+
+.u-padding-bottom-tn {
+    padding-bottom: $sub-unit/2;
+}
+
+.u-padding-bottom-0 {
+    padding-bottom: 0;
+}
+
+// padding Left
+// ====
+.u-padding-left-lg {
+    padding-left: $unit*2;
+}
+
+.u-padding-left-md {
+    padding-left: $unit;
+}
+
+.u-padding-left-sm {
+    padding-left: $sub-unit;
+}
+
+.u-padding-left-tn {
+    padding-left: $sub-unit/2;
+}
+
+.u-padding-left-0 {
+    padding-left: 0;
+}
+
+// padding Right
+// =====
+.u-padding-right-lg {
+    padding-right: $unit*2;
+}
+
+.u-padding-right-md {
+    padding-right: $unit;
+}
+
+.u-padding-right-sm {
+    padding-right: $sub-unit;
+}
+
+.u-padding-right-tn {
+    padding-right: $sub-unit/2;
+}
+
+.u-padding-right-0 {
+    padding-right: 0;
+}

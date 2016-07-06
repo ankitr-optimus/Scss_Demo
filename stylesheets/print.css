@@ -3,6 +3,7 @@
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
 /* line 4, ../sass/print.scss */
 .wrapper {
+  padding: 12px;
   background: green;
   color: red;
 }

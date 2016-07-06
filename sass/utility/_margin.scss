@@ -1,0 +1,174 @@
+// Margin Utility
+// ====
+//
+// Suffixes:
+// lg: large
+// md: medium
+// sm: small
+// tn: tiny
+// zero:  none
+
+
+// All(Four side margin) Margin
+// =====
+.u-margin-all-lg {
+    margin: $unit*2;
+}
+
+.u-margin-all-md {
+    margin: $unit;
+}
+
+.u-margin-all-sm {
+    margin: $sub-unit;
+}
+
+.u-margin-all-tn {
+    margin: $sub-unit / 2;
+}
+
+.u-margin-all-zero {
+    margin: 0;
+}
+
+// Margin Left & Right(L & R)
+// ======
+.u-margin-top-bottom-lg {
+    margin-top: $unit*2;
+    margin-bottom: $unit*2;
+}
+
+.u-margin-top-bottom-md {
+    margin-top: $unit;
+    margin-bottom: $unit;
+}
+
+.u-margin-top-bottom-sm {
+    margin-top: $sub-unit;
+    margin-bottom: $sub-unit;
+}
+
+.u-margin-top-bottom-tn {
+    margin-top: $sub-unit/2;
+    margin-bottom: $sub-unit/2;
+}
+
+.u-margin-top-bottom-zero {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+// Margin Left & Right(L & R)
+// ======
+.u-margin-left-right-lg {
+    margin-right: $unit*2;
+    margin-left: $unit*2;
+}
+
+.u-margin-left-right-md {
+    margin-right: $unit;
+    margin-left: $unit;
+}
+
+.u-margin-left-right-sm {
+    margin-right: $sub-unit;
+    margin-left: $sub-unit;
+}
+
+.u-margin-left-right-tn {
+    margin-right: $sub-unit/2;
+    margin-left: $sub-unit/2;
+}
+
+.u-margin-left-right-zero {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+// Margin Top
+// ======
+.u-margin-top-lg {
+    margin-top: $unit*2;
+}
+
+.u-margin-top-md {
+    margin-top: $unit;
+}
+
+.u-margin-top-sm {
+    margin-top: $sub-unit;
+}
+
+.u-margin-top-tn {
+    margin-top: $sub-unit/2;
+}
+
+.u-margin-top-0 {
+    margin-top: 0;
+}
+
+// Margin bottom
+// ======
+.u-margin-bottom-lg {
+    margin-bottom: $unit*2;
+}
+
+.u-margin-bottom-md {
+    margin-bottom: $unit;
+}
+
+.u-margin-bottom-sm {
+    margin-bottom: $sub-unit;
+}
+
+.u-margin-bottom-tn {
+    margin-bottom: $sub-unit/2;
+}
+
+.u-margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+// Margin Left
+// ====
+.u-margin-left-lg {
+    margin-left: $unit*2;
+}
+
+.u-margin-left-md {
+    margin-left: $unit;
+}
+
+.u-margin-left-sm {
+    margin-left: $sub-unit;
+}
+
+.u-margin-left-tn {
+    margin-left: $sub-unit/2;
+}
+
+.u-margin-left-0 {
+    margin-left: 0;
+}
+
+// Margin Right
+// =====
+.u-margin-right-lg {
+    margin-right: $unit*2;
+}
+
+.u-margin-right-md {
+    margin-right: $unit;
+}
+
+.u-margin-right-sm {
+    margin-right: $sub-unit;
+}
+
+.u-margin-right-tn {
+    margin-right: $sub-unit/2;
+}
+
+.u-margin-right-0 {
+    margin-right: 0;
+}

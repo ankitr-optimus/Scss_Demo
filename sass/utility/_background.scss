@@ -1,0 +1,40 @@
+// Background Utilities
+// ====
+// TODO: Background color need to replace according to
+// project required.
+
+// Suffixes:
+// bg: background
+
+// Neutral background colours
+// ====
+.u-bg-white {
+    background: $white;
+}
+
+.u-bg-black {
+    background: $black;
+}
+
+.u-bg-grey {
+    background: $neutral-40;
+}
+
+.u-bg-light-grey {
+    background: $neutral-50;
+}
+
+.u-bg-dark-grey {
+    background: $neutral-60;
+}
+
+
+// Saturated background colours
+// ====
+.u-error-bg-color {
+    background: $error-color;
+}
+
+.u-success-bg-color {
+    background: $success-color;
+}

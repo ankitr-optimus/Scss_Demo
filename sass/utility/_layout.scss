@@ -1,0 +1,179 @@
+// Layout Shift SCSS
+// ====
+// Shift the layout in any direction i.e Useful for icon, which often hang one
+// unit out towards the margins.
+//
+// Suffixes:
+// lg: large
+// md: medium
+// sm: small
+// tn: tiny
+
+
+// All(Four side margin) Shift
+// =====
+.u-shift-all-lg {
+    margin: -$unit*2;
+}
+
+.u-shift-all-md {
+    margin: -$unit;
+}
+
+.u-shift-all-sm {
+    margin: -$sub-unit;
+}
+
+.u-shift-all-tn {
+    margin: -$sub-unit / 2;
+}
+
+// Shift Left & Right(L & R)
+// ======
+.u-shift-l-r-lg {
+    margin-right: -$unit*2;
+    margin-left: -$unit*2;
+}
+
+.u-shift-l-r-md {
+    margin-right: -$unit;
+    margin-left: -$unit;
+}
+
+.u-shift-l-r-sm {
+    margin-right: -$sub-unit;
+    margin-left: -$sub-unit;
+}
+
+.u-shift-l-r-tn {
+    margin-right: -$sub-unit/2;
+    margin-left: -$sub-unit/2;
+}
+
+// Shift Top
+// ======
+.u-shift-top-lg {
+    margin-top: -$unit*2;
+}
+
+.u-shift-top-md {
+    margin-top: -$unit;
+}
+
+.u-shift-top-sm {
+    margin-top: -$sub-unit;
+}
+
+.u-shift-top-tn {
+    margin-top: -$sub-unit/2;
+}
+
+// Shift bottom
+// ======
+.u-shift-bottom-lg {
+    margin-bottom: -$unit*2;
+}
+
+.u-shift-bottom-md {
+    margin-bottom: -$unit;
+}
+
+.u-shift-bottom-sm {
+    margin-bottom: -$sub-unit;
+}
+
+.u-shift-bottom-tn {
+    margin-bottom: -$sub-unit/2;
+}
+
+// Shift Left
+// ====
+.u-shift-start-lg {
+    margin-left: -$unit*2;
+}
+
+.u-shift-start-md {
+    margin-left: -$unit;
+}
+
+.u-shift-start-sm {
+    margin-left: -$sub-unit;
+}
+
+.u-shift-start-tn {
+    margin-left: -$sub-unit/2;
+}
+
+// Shift Right
+// ====
+.u-shift-end-lg {
+    margin-right: -$unit*2;
+}
+
+.u-shift-end-md {
+    margin-right: -$unit;
+}
+
+.u-shift-end-sm {
+    margin-right: -$sub-unit;
+}
+
+.u-shift-end-tn {
+    margin-right: -$sub-unit/2;
+}
+
+// Float
+// ====
+.u-float-left {
+    float: left;
+}
+
+.u-float-right {
+    float: right;
+}
+
+.u-float-none {
+    float: none;
+}
+
+// Display
+// ===
+.u-display-block {
+    display: block;
+}
+
+.u-display-inline-block {
+    display: inline-block;
+}
+
+.u-display-inline {
+    display: inline;
+}
+
+.u-display-flex {
+    display: flex;
+}
+
+.u-display-inline-flex {
+    display: inline-flex;
+}
+
+.u-display-table {
+    display: table;
+}
+
+// Clear floated element
+// ======
+.clrfix:after {
+    content: '';
+
+    clear: both;
+
+    display: table;
+}
+
+// Border radius
+// ======
+.u-border-radius {
+    border-radius: $border-radius;
+}

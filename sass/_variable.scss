@@ -1,0 +1,89 @@
+// $font-size-base: 14px;
+// $font-size-large: ceil(($font-size-base * 1.25)); // ~18px
+// $font-size-small: ceil(($font-size-base * 0.85)); // ~12px
+//
+// $font-size-h1: floor(($font-size-base * 2.6)); // ~36px
+// $font-size-h2: floor(($font-size-base * 2.15)); // ~30px
+// $font-size-h3: ceil(($font-size-base * 1.7)); // ~24px
+// $font-size-h4: ceil(($font-size-base * 1.25)); // ~18px
+// $font-size-h5: $font-size-base;
+// $font-size-h6: ceil(($font-size-base * 0.85)); // ~12px
+
+
+
+
+// Project-Wide Variables
+// ===
+//
+// Edit these as needed. Some guidelines:
+//
+// - Names should be lowercase and dash-separated;
+// - Qualifiers should be added to the beginning of related variables: use
+//   `$small-font-size`, not `$font-size-small`;
+// - Numeric scales should use increments of 10; these numbers are arbitrary and
+//   should not map to actual values. If really necessary, additional values can
+//   be added in between, e.g. $neutral-15 between 10 and 20.
+
+
+// Layout
+// ---
+
+// Basic unit for spacing and alignment; 6 to 12px recommended. Apply in whole
+// or half multiples.
+$unit: 12px;
+$sub-unit: $unit/2;
+
+// Typography
+// ---
+
+// Font family
+$primary-font-family: sans-serif;
+$secondary-font-family: serif;
+
+// Font size
+$larger-font-size: 20px;
+$large-font-size: 18px;
+$font-size: 14px;
+$small-font-size: 13px;
+$smaller-font-size: 12px;
+$font-size-zero: 0;
+
+
+
+// Weight
+$light-font-weight: 300;
+$normal-font-weight: 400;
+$medium-font-weight: 500;
+
+
+// Color palette
+$black: #000;
+$white: #fff;
+
+// Neutrals
+$neutral-30: #f7f7f7;
+$neutral-40: #cfcfcf;
+$neutral-50: #999;
+$neutral-60: #666;
+$neutral-70: #4a4a4a;
+$neutral-80: #231f20;
+
+// Brand colors
+$brand-color: #b01419; // red
+
+// Link color
+$link-color: #00acc8; // turquoise
+
+
+// Success colors
+$success-color: #abc27e; // green
+
+// Error colors
+$error-color: #f00; // red
+
+// Shorthand
+$border: 1px solid $neutral-50;
+
+
+// Border radius
+$border-radius: 5px

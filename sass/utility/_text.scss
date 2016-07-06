@@ -1,0 +1,177 @@
+// Text Utilities
+// ===
+// 'Fill' used to fill the color of SVG icons.
+
+// Suffixes:
+// x-lg: large
+// lg: large
+// md: medium
+// sm: small
+// tn: tiny
+// zero:  none
+
+// Font size
+// ---
+.u-font-size-x-lg {
+    font-size: $larger-font-size;
+}
+
+.u-font-size-lg {
+    font-size: $large-font-size;
+}
+
+.u-font-size-md {
+    font-size: $font-size;
+}
+
+.u-font-size-sm {
+    font-size: $small-font-size;
+}
+
+.u-font-size-tn {
+    font-size: $smaller-font-size;
+}
+
+.u-font-size-zero {
+    font-size: $font-size-zero;
+}
+
+// Font family
+// ---
+.u-primary-font-family {
+    font-family: $primary-font-family;
+}
+
+.u-secondary-font-family {
+    font-family: $secondary-font-family;
+}
+
+// Error Text
+// ====
+.u-text-error {
+    color: $error-color;
+
+    fill: $error-color;
+}
+
+// Success Text
+// ====
+.u-text-success {
+    color: $success-color;
+
+    fill: $success-color;
+}
+
+// Link Text
+// ====
+.u-text-link {
+    color: $link-color;
+
+    fill: $link-color;
+}
+
+// White Text
+// ====
+.u-text-white {
+    color: $white;
+
+    fill: $white;
+}
+
+// Grey Text
+// ====
+.u-text-grey {
+    color: $neutral-50;
+
+    fill: $neutral-50;
+}
+
+// Black Text
+// ====
+.u-text-black {
+    color: $black;
+
+    fill: $black;
+}
+
+// Text Alignment
+// ====
+.u-text-align-center {
+    text-align: center;
+}
+
+.u-text-align-right {
+    text-align: right;
+}
+
+.u-text-align-left {
+    text-align: left;
+}
+
+// Text Font Weight
+// ====
+.u-text-weight-light {
+    font-weight: $light-font-weight;
+}
+
+.u-text-weight-normal {
+    font-weight: $normal-font-weight;
+}
+
+.u-text-weight-bold {
+    font-weight: $medium-font-weight;
+}
+
+// Text break
+// ====
+//
+// Used to break long text without space
+.u-text-break {
+    word-break: break-word;
+}
+
+// Text transforms
+// ====
+.u-text-capitalize {
+    text-transform: capitalize;
+}
+
+.u-text-uppercase {
+    text-transform: uppercase;
+}
+
+.u-text-lowercase {
+    text-transform: lowercase;
+}
+
+.u-text-transform-initial {
+    text-transform: initial;
+}
+
+// First letter transforms
+// ====
+.u-text-first-letter-uppercase {
+    &::first-letter {
+        text-transform: uppercase;
+    }
+}
+
+// Text transforms
+// ====
+// Long text show in dotted form
+.u-text-ellipsis {
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+// Text decorations
+// ====
+.u-text-underline {
+    text-decoration: underline;
+}
+
+.u-text-line-through {
+    text-decoration: line-through;
+}
