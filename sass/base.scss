@@ -1,10 +1,12 @@
-@import "ie";
-@import "print";
-@import "screen";
+@import 'variable';
+@import "compass/reset";
+
+// Component CSS
+@import 'component/arrange/arrange';
+
 
 
 // Utility CSS
-@import 'variable';
 @import 'utility/background';
 @import 'utility/border';
 @import 'utility/layout';

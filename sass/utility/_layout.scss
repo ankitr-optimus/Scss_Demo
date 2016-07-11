@@ -164,7 +164,7 @@
 
 // Clear floated element
 // ======
-.clrfix:after {
+.clearfix:after {
     content: '';
 
     clear: both;

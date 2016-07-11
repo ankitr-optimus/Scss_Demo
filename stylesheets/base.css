@@ -1,22 +1,3 @@
-/* Welcome to Compass. Use this file to write IE specific override styles.
- * Import this file using the following HTML or equivalent:
- * <!--[if IE]>
- *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
- * <![endif]--> */
-/* Welcome to Compass. Use this file to define print styles.
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
-/* line 4, ../sass/print.scss */
-.wrapper {
-  padding: 12px;
-  background: green;
-  color: red;
-}
-
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 5, ../../../../Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -82,6 +63,178 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 14, ../sass/component/arrange/_arrange.scss */
+.c-arrange {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 23, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--inline {
+  display: inline-flex;
+}
+
+/* line 31, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--align-top {
+  align-items: flex-start;
+}
+
+/* line 35, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--align-middle {
+  align-items: center;
+}
+
+/* line 39, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--align-bottom {
+  align-items: flex-end;
+}
+
+/* line 47, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--justify-start {
+  justify-content: flex-start;
+}
+
+/* line 51, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--justify-end {
+  justify-content: flex-end;
+}
+
+/* line 55, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--justify-between {
+  justify-content: space-between;
+}
+
+/* line 59, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--justify-center {
+  justify-content: center;
+}
+
+/* line 63, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--justify-around {
+  justify-content: space-around;
+}
+
+/* line 71, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--row-reverse {
+  flex-direction: row-reverse;
+}
+
+/* line 75, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--column {
+  flex-direction: column;
+}
+
+/* line 86, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item {
+  display: block;
+  flex: 1;
+  width: 100%;
+}
+
+/* line 96, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--quarter-step {
+  flex: 1.25;
+}
+
+/* line 100, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--half-step {
+  flex: 1.5;
+}
+
+/* line 104, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--threequarter-step {
+  flex: 1.75;
+}
+
+/* line 108, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--full-step {
+  flex: 2;
+}
+
+/* line 112, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--px-width {
+  flex: 1 1 100px;
+}
+
+/* line 116, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--width-auto {
+  flex: 1 1 auto;
+}
+
+/* line 124, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--align-right {
+  text-align: right;
+}
+
+/* line 132, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--single {
+  white-space: nowrap;
+}
+
+/* line 144, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--shrink {
+  flex: initial;
+  width: auto;
+}
+
+/* line 156, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--order-1 {
+  order: 1;
+}
+
+/* line 160, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--order-2 {
+  order: 2;
+}
+
+/* line 164, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--order-3 {
+  order: 3;
+}
+
+/* line 168, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--order-4 {
+  order: 4;
+}
+
+/* line 172, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--order-5 {
+  order: 5;
+}
+
+/* line 176, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--order-6 {
+  order: 6;
+}
+
+/* line 184, ../sass/component/arrange/_arrange.scss */
+.c-arrange__item.c--align-self-start {
+  align-self: flex-start;
+}
+
+/* line 194, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--gutters {
+  margin-right: -12px;
+  margin-left: -12px;
+}
+/* line 198, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--gutters > .c-arrange__item {
+  margin: 0 12px;
+}
+
+/* line 203, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--gutters-small {
+  margin-right: -6px;
+  margin-left: -6px;
+}
+/* line 207, ../sass/component/arrange/_arrange.scss */
+.c-arrange.c--gutters-small > .c-arrange__item {
+  margin: 0 6px;
+}
+
 /* line 11, ../sass/utility/_background.scss */
 .u-bg-white {
   background: #fff;
@@ -99,7 +252,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 23, ../sass/utility/_background.scss */
 .u-bg-light-grey {
-  background: #999;
+  background: #f7f7f7;
 }
 
 /* line 27, ../sass/utility/_background.scss */
@@ -337,7 +490,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 167, ../sass/utility/_layout.scss */
-.clrfix:after {
+.clearfix:after {
   content: '';
   clear: both;
   display: table;
